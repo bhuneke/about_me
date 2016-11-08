@@ -1,0 +1,33 @@
+<!DOCTYPE html:5>
+<html>
+  <head>
+    <title>About Me</title>
+  </head>
+  <body>
+    <ul>
+      <li>What is your name?</li>
+      <li>Where are you from?</li>
+      <li>What is your favorite color?</li>
+      <li>What is your favorite animal?</li>
+    </ul>
+    <script>
+      console.log('Hello World');
+      
+      var nameQuestionAnswer = prompt('What is your name?');
+      console.log('First question answered with: ' + nameQuestionAnswer);
+      alert('Hey ' + nameQuestionAnswer + '! That is a pretty cool name... I guess.');
+
+      var fromQuestionAnswer = prompt('Where are you from?');
+      console.log('Second question answered with: ' + fromQuestionAnswer);
+      alert(fromQuestionAnswer + ', huh? Sounds exciting, ' + nameQuestionAnswer + ".");
+
+      var colorQuestionAnswer = prompt('What is your favorite color?');
+      console.log('Third question answered with: ' + colorQuestionAnswer);
+      alert('I agree with you, ' + nameQuestionAnswer + '. ' + colorQuestionAnswer + ' is a nice color. Is there much ' + colorQuestionAnswer + ' in ' + fromQuestionAnswer + '?');
+
+      var animalQuestionAnswer = prompt('What is your favorite animal?');
+      console.log('Fourth question answered with: ' + animalQuestionAnswer);
+      alert('Hmmm, ' + nameQuestionAnswer + '. I have never seen a ' + colorQuestionAnswer + ' ' + animalQuestionAnswer + '. Do they live in ' + fromQuestionAnswer + '?');
+    </script>
+  </body>
+</html>
