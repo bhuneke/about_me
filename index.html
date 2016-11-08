@@ -1,33 +1,37 @@
 <!DOCTYPE html:5>
 <html>
+
   <head>
     <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+
   <body>
-    <ul>
-      <li>What is your name?</li>
-      <li>Where are you from?</li>
-      <li>What is your favorite color?</li>
-      <li>What is your favorite animal?</li>
-    </ul>
-    <script>
-      console.log('Hello World');
-      
-      var nameQuestionAnswer = prompt('What is your name?');
-      console.log('First question answered with: ' + nameQuestionAnswer);
-      alert('Hey ' + nameQuestionAnswer + '! That is a pretty cool name... I guess.');
-
-      var fromQuestionAnswer = prompt('Where are you from?');
-      console.log('Second question answered with: ' + fromQuestionAnswer);
-      alert(fromQuestionAnswer + ', huh? Sounds exciting, ' + nameQuestionAnswer + ".");
-
-      var colorQuestionAnswer = prompt('What is your favorite color?');
-      console.log('Third question answered with: ' + colorQuestionAnswer);
-      alert('I agree with you, ' + nameQuestionAnswer + '. ' + colorQuestionAnswer + ' is a nice color. Is there much ' + colorQuestionAnswer + ' in ' + fromQuestionAnswer + '?');
-
-      var animalQuestionAnswer = prompt('What is your favorite animal?');
-      console.log('Fourth question answered with: ' + animalQuestionAnswer);
-      alert('Hmmm, ' + nameQuestionAnswer + '. I have never seen a ' + colorQuestionAnswer + ' ' + animalQuestionAnswer + '. Do they live in ' + fromQuestionAnswer + '?');
-    </script>
+    <h1>About Me</h1>
+    <div id=basics>
+      <h3>The Basics</h3>
+        <ul>
+          <li>My name is Brigitte.</li>
+          <li>I am from Texas.</li>
+          <li>I live in Portland.</li>
+        </ul>
+    </div>
+    <div id=favorites>
+      <h3>My Favorites</h3>
+        <ul>
+          <li>My favorite color is green.</li>
+          <li>My favorite animal is a giraffe.</li>
+          <li>My favorite food is curry.</li>
+        </ul>
+    </div>
+    <div id=mascots>
+      <h3>My Mascots</h3>
+        <ul>
+          <li>Ducks</li>
+          <li>Longhorns</li>
+          <li>Mustangs</li>
+        </ul>
+    </div>
+    <script src="app.js"></script>
   </body>
 </html>

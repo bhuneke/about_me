@@ -1,0 +1,38 @@
+body {
+  font-family: Helvetica, sans-serif;
+  color: #36454f;
+  background-color: #d3d3d3;
+}
+
+h1 {
+  text-align: center;
+  background-color: #36454f;
+  color: #d3d3d3;
+}
+
+div {
+  width:500px;
+  padding: 2px 20px;
+  margin: 5px 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #36454f;
+}
+
+#basics {
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+
+#favorites {
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+
+#mascots {
+  display: inline-block;
+  float:left;
+  width: 25%;
+}
