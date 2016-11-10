@@ -19,20 +19,14 @@ div {
   border: 2px solid #36454f;
 }
 
-#basics {
-  display: inline-block;
-  float: left;
-  width: 25%;
+#education {
+
 }
 
-#favorites {
-  display: inline-block;
-  float: left;
-  width: 25%;
+#experience {
+
 }
 
-#mascots {
-  display: inline-block;
-  float:left;
-  width: 25%;
+#tools {
+
 }
