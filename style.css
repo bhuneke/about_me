@@ -1,32 +1,44 @@
 body {
   font-family: Helvetica, sans-serif;
-  color: #36454f;
-  background-color: #d3d3d3;
+  color: #808080;
 }
 
 h1 {
+  font-family: Arial, serif;
+  color: #f88379;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-family: Lucida, sans-serif;;
+}
+
+#name {
+  color: gray;
+  font-family: sans-serif;
+  font-size: 60px;
   text-align: center;
-  background-color: #36454f;
-  color: #d3d3d3;
 }
 
-div {
-  width:500px;
-  padding: 2px 20px;
-  margin: 5px 15px;
-  border-radius: 10px;
-  background-color: #fff;
-  border: 2px solid #36454f;
+
+header {
+  height: 100px;
+  margin: 0;
+  background-color: white;
+  list-style: none;
 }
 
-#education {
-
+nav ul li{
+  display: inline-block;
+  margin: 0 2%;
+  align: left;
 }
 
-#experience {
-
-}
-
-#tools {
-
+#topten{
+  width: 350px;
+  padding: 10px;
+  margin: 0 auto;
+  border: .5px solid gray;
+  border-radius: 5px;
 }
