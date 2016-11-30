@@ -112,10 +112,11 @@ function sixthQuestion() {
     } else if (numberGuess < secretNumber){
       alert('Nope. Too low.');
       numberGuess = prompt('Try again. What is my favorite number?');
-    } else {
-      i = 3;
+    } else if (numberGuess === secretNumber) {
       alert('YOU GOT IT!');
       answerTally += 1;
+    } else {
+      alert('Better luck next time.');
     }
   }
   //CURRENT ANSWER TALLY
